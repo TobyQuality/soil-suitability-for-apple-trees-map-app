@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+#Bavarian Apple Tree Suitability Map
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###This project is an interactive map designed to visualize which apple tree varieties are best suited for different soil types across Bavaria. The map is built using React, MapLibre GL, and GeoJSON data layers.
 
-## Available Scripts
+##Live Demo 🌍
 
-In the project directory, you can run:
+###Check out the live version of the application here:🔗 https://obstlplan-map-of-bavaria.s3.eu-north-1.amazonaws.com/index.html
 
-### `npm start`
+##Features ✨
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###Displays different soil types and their suitability for apple tree cultivation in Neuburg region of Bavaria.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##Uses GeoJSON layers to visualize soil assessments.
 
-### `npm test`
+###Point and Polygon Layers represent different data aspects.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Fully interactive map with zoom and navigation controls.
 
-### `npm run build`
+##Installation🛠️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+####Ensure you have the following installed:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Node.js
 
-### `npm run eject`
+npm or yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+###Steps
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+####Clone this repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+####Install dependencies:
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+####Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
 
-### Code Splitting
+####Open http://localhost:3000 in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##Usage 🗺️
 
-### Analyzing the Bundle Size
+###The application will display a Bavarian map with different soil layers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+###Click on different regions to view soil suitability details.
 
-### Making a Progressive Web App
+###Zoom and pan around the map to explore different areas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+##Technologies Used 💻
 
-### Advanced Configuration
+###React - Frontend framework
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+###MapLibre GL - Open-source mapping library
 
-### Deployment
+###GeoJSON - Geospatial data format
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+###S3 Cloud Hosting - For hosting the live version
 
-### `npm run build` fails to minify
+License 📜
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
